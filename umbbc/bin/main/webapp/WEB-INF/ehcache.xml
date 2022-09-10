@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
+	<cache name="testCache" maxElementsInMemory="1" timeToLiveSeconds="3600" overflowToDisk="false" />
+	<cache name="filterBlacklistCache" maxElementsInMemory="1" timeToLiveSeconds="3600" overflowToDisk="false" />
+	<cache name="messageUmbbcCache" maxElementsInMemory="100" timeToLiveSeconds="3600" overflowToDisk="false" />
+	<cache name="messageUmbbcAxisCache" maxElementsInMemory="100" timeToLiveSeconds="3600" overflowToDisk="false" />
+	<cache name="groupMessageUmbbcCache" maxElementsInMemory="100" timeToLiveSeconds="3600" overflowToDisk="false" />
+</ehcache>
